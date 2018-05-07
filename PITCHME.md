@@ -10,9 +10,7 @@ Good practices for modern Javascript Applications
 
 ---
 
-### 
-
-NO
+### NO
 ```javascript
 // DON'T
 let d
@@ -20,7 +18,7 @@ let elapsed
 const ages = arr.map((i) => i.age)
 ```
 
-YES
+### YES
 ```javascript
 // DO
 let daysSinceModification
