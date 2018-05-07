@@ -4,7 +4,7 @@ Good practices for modern Javascript Applications
 
 ---
 
-### Flux Design
+### JS Clean Code
 
 - Best Practices: Improving your code quality
 
