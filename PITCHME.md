@@ -10,15 +10,22 @@ Good practices for modern Javascript Applications
 
 ---
 
-### NO
+### WTF's / minute
+
+---?image=assets/images/sunset.jpg
+
+---
+
+#### @color[#e43d36](DON'T)
 ```javascript
-// DON'T
+
 let d
 let elapsed
 const ages = arr.map((i) => i.age)
 ```
 
-### YES
+
+#### @color[#00ff00](DO)
 ```javascript
 // DO
 let daysSinceModification
