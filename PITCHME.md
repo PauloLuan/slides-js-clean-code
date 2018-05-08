@@ -11,7 +11,7 @@
 @title[WTF's / minute]
 
 ---
-## How should I name my variables?
+#### How should I name my variables?
 #### @color[#e43d36](DON'T)
 ```javascript
 
@@ -30,7 +30,7 @@ const agesOfUsers = users.map((user) => user.age)
 
 ---
 
-## How should I name my variables?
+#### How should I name my variables?
 #### @color[#e43d36](DON'T)
 ```javascript
 let fName, lName
