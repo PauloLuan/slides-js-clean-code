@@ -11,10 +11,7 @@ Good practices for modern Javascript Applications
 ---
 
 ### WTF's / minute
-
----?image=assets/images/sunset.jpg
-
----
+---?image=images/wtf.jpg
 
 #### @color[#e43d36](DON'T)
 ```javascript
