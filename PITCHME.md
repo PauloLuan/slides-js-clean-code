@@ -10,7 +10,9 @@
 ---
 
 ### WTF's / minute
----?image=images/wtf.jpg
+---?image=images/wtf.jpg&size=55% 55%
+
+---
 
 #### @color[#e43d36](DON'T)
 ```javascript
