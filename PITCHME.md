@@ -1,6 +1,5 @@
-# JS Clean Code 
-
-Good practices for modern Javascript Applications
+## @color[#e49436](Clean)Code
+#### Good @color[#e49436](Practices) for modern @fa[magic] JS Applications
 
 ---
 
