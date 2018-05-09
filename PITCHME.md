@@ -153,6 +153,37 @@ let x = v || 10;
 ```
 ---
 
+##### Giving some meaning to your business rules
+#### @color[#e43d36](DON'T)
+```javascript
+_isVendorValid() {
+  let isVendorValid = false
+  if (isEqual(lowerCase(get(vendorInfo, 'Inf_Infc_kit_bf')), 'x') &&
+    size(availableParts) > 0 &&
+    !isEqual(upperCase(get(vendorInfo, 'p_info')), 'P')) {
+    isVendorValid = true
+  }
+  return isVendorValid
+}
+```
+---
+##### Giving some meaning to your business rules
+#### @color[#00ff00](DO)
+```javascript
+_isVendorValid() {
+  let isVendorValid = false
+  const IS_KIT = isEqual(lowerCase(get(vendorInfo, 'Inf_Infc_kit_bf')), 'x')
+  const VENDOR_NOT_P = !isEqual(upperCase(get(vendorInfo, 'p_info')), 'P')
+  const MORE_THAN_ONE_PART = size(availableParts) > 0
+
+  if (IS_KIT && MORE_THAN_ONE_PART && VENDOR_NOT_P) {
+    isVendorValid = true
+  }
+  return isVendorValid
+}
+```
+---
+
 ##### Reduce side effects 
 #### @color[#e43d36](DON'T)
 ```javascript
