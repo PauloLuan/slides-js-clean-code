@@ -137,6 +137,22 @@ getRegisteredUsers({
 ```
 ---
 
+##### Avoid else's
+#### @color[#e43d36](DON'T)
+```javascript
+if(v){
+   let x = v;
+} else {
+   let x =10;
+}
+```
+
+#### @color[#00ff00](DO)
+```javascript
+let x = v || 10;
+```
+---
+
 ##### Reduce side effects 
 #### @color[#e43d36](DON'T)
 ```javascript
