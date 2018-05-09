@@ -3,7 +3,7 @@
 
 ### Clean 
 ## @css[shoutout](Code)
-#### Good Practices for modern @fa[magic] JS Applications
+#### Good Practices for modern @fa[magic] @css[gold](JS) Applications
 #### by @pauloluan
 
 ---
@@ -59,8 +59,9 @@ const isFull = cart.size > MAX_CART_SIZE
 ```
 ---
 
-#### @size[0.5em](@color[gray](How should I write my functions?))
-## @css[gold]("Functions should do one thing. They should do it well. They should do it only.") — Robert C. Martin (Uncle Bob)
+@size[0.5em](@color[gray](How should I write my functions?))
+#### @css[gold]("Functions should do one thing. They should do it well. They should do it only.") 
+— Robert C. Martin (Uncle Bob)
 
 ---
 ##### How should I write my functions?
@@ -283,7 +284,7 @@ async function handler () {
 @title[Follow me]
 
 #### @size[0.5em](@color[gray](Follow me at @))
-## Github.com/@css[gold](pauloluan)
+#### Github.com/@css[gold](pauloluan)
 
 #### @size[0.5em](@color[gray](Linkedin))
-## linkedin.com/in/@css[gold](pauloluan)
+#### linkedin.com/in/@css[gold](pauloluan)
