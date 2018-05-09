@@ -59,8 +59,8 @@ const isFull = cart.size > MAX_CART_SIZE
 ```
 ---
 
-### How should I write my functions?
-#### "Functions should do one thing. They should do it well. They should do it only."" — Robert C. Martin (Uncle Bob)
+#### @size[0.5em](@color[gray](How should I write my functions?))
+## @css[gold]("Functions should do one thing. They should do it well. They should do it only.") — Robert C. Martin (Uncle Bob)
 
 ---
 ##### How should I write my functions?
