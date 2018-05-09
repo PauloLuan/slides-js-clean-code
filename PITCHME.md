@@ -1,9 +1,9 @@
 ---?image=assets/images/css.jpg&opacity=20
 @title[Code Talking]
 
-### Good 
-## @css[shoutout](Practices)
-#### for modern @fa[desktop-alt] JS Applications
+### Clean 
+## @css[shoutout](Code)
+#### Good Practices for modern @fa[desktop-alt] JS Applications
 
 ---
 
