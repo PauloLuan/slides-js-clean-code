@@ -3,22 +3,17 @@
 
 ### Clean 
 ## @css[shoutout](Code)
-#### Good Practices for modern @fa[desktop-alt] JS Applications
+#### Good Practices for modern @fa[magic] JS Applications
 #### by @pauloluan
 
 ---
+@title[WTF per minute]
 
-## @color[#e49436](Clean)Code
-#### Good @color[#e49436](Practices) for modern @fa[desktop-alt] JS Applications
+#### Code review measure
 
----
-
-### JS Clean Code
-
-- Best Practices: Improving your code quality
-
----?image=assets/images/wtf.jpg&size=55% 55%
-@title[WTF's / minute]
+@div
+![](assets/images/wtf.jpg)
+@divend
 
 ---
 ##### How should I name my variables?
@@ -291,4 +286,4 @@ async function handler () {
 ## Github.com/@css[gold](pauloluan)
 
 #### @size[0.5em](@color[gray](Linkedin))
-### [linkedin.com/in/pauloluan](https://www.linkedin.com/in/pauloluan/)
+## linkedin.com/in/@css[gold](pauloluan)
